@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== 设计令牌（《前端设计文档》§2，暗色「夜间自习室」） ===== */
+:root {
+  --bg-base: #0d100b;
+  --bg-elevated: #141912;
+  --bg-surface: #1a2016;
+  --bg-overlay: #232b1e;
+  --bg-hover: #263022;
+  --line: rgba(240, 245, 232, 0.09);
+  --line-strong: rgba(240, 245, 232, 0.16);
+  --ink-primary: #f0f4e8;
+  --ink-secondary: #9aa88e;
+  --ink-tertiary: #67735c;
+  --brand: #9ee15c;
+  --brand-hover: #b4ec7e;
+  --brand-muted: rgba(158, 225, 92, 0.14);
+  --on-brand: #12200a;
+  --accent: #f2c14e;
+  --accent-muted: rgba(242, 193, 78, 0.14);
+  --info: #6fc3e8;
+  --success: #7ed957;
+  --danger: #f2617a;
+  --cyan: #5eead4;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-brand: 0 0 24px rgba(158, 225, 92, 0.18);
+}
+
+/* 浅色主题（《前端设计文档》§2.1） */
+[data-theme='light'] {
+  --bg-base: #f5f7f0;
+  --bg-elevated: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-overlay: #ffffff;
+  --bg-hover: #edf2e4;
+  --line: rgba(20, 30, 10, 0.1);
+  --line-strong: rgba(20, 30, 10, 0.2);
+  --ink-primary: #1b2413;
+  --ink-secondary: #5c6b50;
+  --ink-tertiary: #9aa88e;
+  --brand: #5fa622;
+  --brand-hover: #4c8a1a;
+  --brand-muted: rgba(95, 166, 34, 0.12);
+  --on-brand: #ffffff;
+  --accent: #c99a2c;
+  --accent-muted: rgba(201, 154, 44, 0.12);
+  --info: #2e8fc2;
+  --success: #3e9b1b;
+  --danger: #d63a57;
+  --cyan: #0e9f8a;
+  --shadow-card: 0 1px 3px rgba(20, 30, 10, 0.08);
+  --shadow-brand: 0 0 20px rgba(95, 166, 34, 0.18);
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--ink-primary);
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: 'Bricolage Grotesque', -apple-system, 'PingFang SC', sans-serif; }
+.font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+::selection {
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+@layer components {
+  .card {
+    background: var(--bg-surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: var(--shadow-card);
+  }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-semibold transition-all duration-150;
+  }
+  .btn-brand {
+    background: var(--brand);
+    color: var(--on-brand);
+  }
+  .btn-brand:hover {
+    background: var(--brand-hover);
+    box-shadow: var(--shadow-brand);
+  }
+  .btn-ghost {
+    border: 1px solid var(--line-strong);
+    color: var(--ink-secondary);
+  }
+  .btn-ghost:hover {
+    background: var(--bg-hover);
+    color: var(--ink-primary);
+  }
+  .btn-danger {
+    background: rgba(242, 97, 122, 0.12);
+    color: var(--danger);
+    border: 1px solid rgba(242, 97, 122, 0.3);
+  }
+  .btn-danger:hover {
+    background: rgba(242, 97, 122, 0.2);
+    border-color: var(--danger);
+  }
+  .btn:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+  .input {
+    @apply w-full rounded-md px-3.5 py-2.5 text-sm outline-none transition-all;
+    background: var(--bg-base);
+    border: 1px solid var(--line-strong);
+    color: var(--ink-primary);
+  }
+  .input:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px var(--brand-muted);
+  }
+  .input::placeholder {
+    color: var(--ink-tertiary);
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+  .badge-cyan { background: rgba(94, 234, 212, 0.12); color: var(--cyan); }
+  .badge-info { background: rgba(111, 195, 232, 0.12); color: var(--info); }
+  .badge-success { background: rgba(126, 217, 87, 0.12); color: var(--success); }
+  .badge-accent { background: var(--accent-muted); color: var(--accent); }
+  .badge-danger { background: rgba(242, 97, 122, 0.12); color: var(--danger); }
+  .badge-brand { background: var(--brand-muted); color: var(--brand); }
+  .badge-mute { background: var(--bg-hover); color: var(--ink-tertiary); }
+  .nav-item {
+    @apply flex items-center gap-2.5 w-full rounded-md px-3 py-2 text-sm transition-colors text-left;
+    color: var(--ink-secondary);
+  }
+  .nav-item:hover { background: var(--bg-hover); color: var(--ink-primary); }
+  .nav-item.active { background: var(--brand-muted); color: var(--brand); font-weight: 600; }
+  .pill-btn {
+    @apply rounded-full px-4 py-1.5 text-[13px] transition-colors whitespace-nowrap;
+    color: var(--ink-secondary);
+  }
+  .pill-btn:hover { color: var(--ink-primary); }
+  .pill-btn.active { background: var(--brand); color: var(--on-brand); font-weight: 600; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.page-enter { animation: fadeUp 0.25s ease-out; }
+
+@keyframes auroraMove {
+  from { transform: translate(-4%, -3%) scale(1); }
+  to { transform: translate(4%, 4%) scale(1.12); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ===== Toast 动画（§7.1） ===== */
+@keyframes toastIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes toastOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(40px); }
+}
+.toast-item { animation: toastIn 0.25s cubic-bezier(.22,1,.36,1); }
+.toast-item.leaving { animation: toastOut 0.2s ease-in forwards; }
+
+/* ===== 翻卡 3D 动画 ===== */
+.flip-card { perspective: 1200px; }
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(.22,1,.36,1);
+  transform-style: preserve-3d;
+}
+.flip-card.flipped .flip-card-inner { transform: rotateY(180deg); }
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  inset: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back { transform: rotateY(180deg); }
+
+/* ===== 卡片滑入/滑出 ===== */
+@keyframes cardSlideIn {
+  from { opacity: 0; transform: translateX(60px) scale(0.92); }
+  to { opacity: 1; transform: translateX(0) scale(1); }
+}
+@keyframes cardSlideOutLeft {
+  from { opacity: 1; transform: translateX(0) scale(1); }
+  to { opacity: 0; transform: translateX(-80px) scale(0.9); }
+}
+@keyframes cardSlideOutRight {
+  from { opacity: 1; transform: translateX(0) scale(1); }
+  to { opacity: 0; transform: translateX(80px) scale(0.9); }
+}
+
+/* ===== 滚动条美化 ===== */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-tertiary); }
+
+/* ===== 移动端适配（§4.2 / §8） ===== */
+@media (max-width: 767px) {
+  .desktop-only { display: none !important; }
+  .mobile-main { margin-left: 0 !important; padding: 1rem !important; }
+  .mobile-tabbar { display: flex !important; }
+}
+@media (min-width: 768px) {
+  .mobile-only { display: none !important; }
+}

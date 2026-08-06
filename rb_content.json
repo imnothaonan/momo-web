@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Animations",
+    "path": "src/content/Animations",
+    "sha": "e280c88fe71ce3fe5a6ff7e32214dffe8b3cea15",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Animations?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Animations",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/e280c88fe71ce3fe5a6ff7e32214dffe8b3cea15",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Animations?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/e280c88fe71ce3fe5a6ff7e32214dffe8b3cea15",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Animations"
+    }
+  },
+  {
+    "name": "Backgrounds",
+    "path": "src/content/Backgrounds",
+    "sha": "72c362b5ede2e430fc38e0925c7e069870b6e7aa",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Backgrounds?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Backgrounds",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/72c362b5ede2e430fc38e0925c7e069870b6e7aa",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Backgrounds?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/72c362b5ede2e430fc38e0925c7e069870b6e7aa",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Backgrounds"
+    }
+  },
+  {
+    "name": "Components",
+    "path": "src/content/Components",
+    "sha": "5c0805c04bf91c5531f3c9a18a386a3c04b98326",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Components?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Components",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/5c0805c04bf91c5531f3c9a18a386a3c04b98326",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/Components?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/5c0805c04bf91c5531f3c9a18a386a3c04b98326",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/content/Components"
+    }
+  },
+  {
+    "name": "TextAnimations",
+    "path": "src/content/TextAnimations",
+    "sha": "78ee2323f7adeca47bbd2003bd308d94c5407f43",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/TextAnimations?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/content/TextAnimations",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/78ee2323f7adeca47bbd2003bd308d94c5407f43",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content/TextAnimations?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/78ee2323f7adeca47bbd2003bd308d94c5407f43",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/content/TextAnimations"
+    }
+  }
+]

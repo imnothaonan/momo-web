@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+momo-web/tools/npm-cache/
+
+# Build output
+dist/
+momo-web/dist/
+
+# Vite cache
+.momoweb/.vite/
+momo-web/node_modules/.vite/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+momo-web/tools/_logs/
+
+# Playwright
+momo-web/_shots/
+design-preview/_shots/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*_diag*.py
+*_e2e*.py

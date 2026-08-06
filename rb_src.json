@@ -1,0 +1,306 @@
+[
+  {
+    "name": "App.jsx",
+    "path": "src/App.jsx",
+    "sha": "98d28d060baa86e2d4babb0407432cdb4c4820e7",
+    "size": 1908,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/App.jsx?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/blob/main/src/App.jsx",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/98d28d060baa86e2d4babb0407432cdb4c4820e7",
+    "download_url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/App.jsx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/App.jsx?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/98d28d060baa86e2d4babb0407432cdb4c4820e7",
+      "html": "https://github.com/DavidHDev/react-bits/blob/main/src/App.jsx"
+    }
+  },
+  {
+    "name": "assets",
+    "path": "src/assets",
+    "sha": "21573538464143f2b795d590a499738db51077cb",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/assets?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/assets",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/21573538464143f2b795d590a499738db51077cb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/assets?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/21573538464143f2b795d590a499738db51077cb",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/assets"
+    }
+  },
+  {
+    "name": "components",
+    "path": "src/components",
+    "sha": "7f37ad09ff18ef495938af8c61d3152b40cbc943",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/components?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/components",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/7f37ad09ff18ef495938af8c61d3152b40cbc943",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/components?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/7f37ad09ff18ef495938af8c61d3152b40cbc943",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/components"
+    }
+  },
+  {
+    "name": "constants",
+    "path": "src/constants",
+    "sha": "3ca9d1c551a2ffd468c2a5aad535de8eb9478e58",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/constants?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/constants",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/3ca9d1c551a2ffd468c2a5aad535de8eb9478e58",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/constants?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/3ca9d1c551a2ffd468c2a5aad535de8eb9478e58",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/constants"
+    }
+  },
+  {
+    "name": "content",
+    "path": "src/content",
+    "sha": "0640d0030ad40f76c1f28bc8b207b2b86885be4d",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/content",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/0640d0030ad40f76c1f28bc8b207b2b86885be4d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/content?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/0640d0030ad40f76c1f28bc8b207b2b86885be4d",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/content"
+    }
+  },
+  {
+    "name": "css",
+    "path": "src/css",
+    "sha": "7a8fa13125ed9cb94568a5147bcb7557ed6a328d",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/css?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/css",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/7a8fa13125ed9cb94568a5147bcb7557ed6a328d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/css?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/7a8fa13125ed9cb94568a5147bcb7557ed6a328d",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/css"
+    }
+  },
+  {
+    "name": "demo",
+    "path": "src/demo",
+    "sha": "6683a93a9647893100f8b511856255c7bce0fa6b",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/demo?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/demo",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/6683a93a9647893100f8b511856255c7bce0fa6b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/demo?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/6683a93a9647893100f8b511856255c7bce0fa6b",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/demo"
+    }
+  },
+  {
+    "name": "docs",
+    "path": "src/docs",
+    "sha": "5bd69162aff779ede03ffa8e082eb173dcc32c02",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/docs?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/docs",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/5bd69162aff779ede03ffa8e082eb173dcc32c02",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/docs?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/5bd69162aff779ede03ffa8e082eb173dcc32c02",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/docs"
+    }
+  },
+  {
+    "name": "global.d.ts",
+    "path": "src/global.d.ts",
+    "sha": "b283a8d550f293346d0fe16ae2987359a3afc92f",
+    "size": 307,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/global.d.ts?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/blob/main/src/global.d.ts",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b283a8d550f293346d0fe16ae2987359a3afc92f",
+    "download_url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/global.d.ts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/global.d.ts?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b283a8d550f293346d0fe16ae2987359a3afc92f",
+      "html": "https://github.com/DavidHDev/react-bits/blob/main/src/global.d.ts"
+    }
+  },
+  {
+    "name": "hooks",
+    "path": "src/hooks",
+    "sha": "2d179e882bc050b9d71fc27572751339cfa3c9ea",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/hooks?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/hooks",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/2d179e882bc050b9d71fc27572751339cfa3c9ea",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/hooks?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/2d179e882bc050b9d71fc27572751339cfa3c9ea",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/hooks"
+    }
+  },
+  {
+    "name": "main.jsx",
+    "path": "src/main.jsx",
+    "sha": "eaa44a0dc775e56cb96d3b9c830d5fa8d343a605",
+    "size": 576,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/main.jsx?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/blob/main/src/main.jsx",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/eaa44a0dc775e56cb96d3b9c830d5fa8d343a605",
+    "download_url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/main.jsx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/main.jsx?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/eaa44a0dc775e56cb96d3b9c830d5fa8d343a605",
+      "html": "https://github.com/DavidHDev/react-bits/blob/main/src/main.jsx"
+    }
+  },
+  {
+    "name": "pages",
+    "path": "src/pages",
+    "sha": "3c4146c669796b9f3da6fdefd43c1c482961fe88",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/pages?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/pages",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/3c4146c669796b9f3da6fdefd43c1c482961fe88",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/pages?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/3c4146c669796b9f3da6fdefd43c1c482961fe88",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/pages"
+    }
+  },
+  {
+    "name": "styles.css",
+    "path": "src/styles.css",
+    "sha": "5d5c5f4b0ec8349fd311a7a2bf8d3a8dff3c3c1d",
+    "size": 2122,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/styles.css?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/blob/main/src/styles.css",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5d5c5f4b0ec8349fd311a7a2bf8d3a8dff3c3c1d",
+    "download_url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/styles.css",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/styles.css?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5d5c5f4b0ec8349fd311a7a2bf8d3a8dff3c3c1d",
+      "html": "https://github.com/DavidHDev/react-bits/blob/main/src/styles.css"
+    }
+  },
+  {
+    "name": "tailwind",
+    "path": "src/tailwind",
+    "sha": "30156b3422c5b9cbbb08ddbc0d096a2ed2181b1a",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/tailwind?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/tailwind",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/30156b3422c5b9cbbb08ddbc0d096a2ed2181b1a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/tailwind?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/30156b3422c5b9cbbb08ddbc0d096a2ed2181b1a",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/tailwind"
+    }
+  },
+  {
+    "name": "tools",
+    "path": "src/tools",
+    "sha": "66663120424c8d91832aaac0eed4a3e4118f8307",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/tools?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/tools",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/66663120424c8d91832aaac0eed4a3e4118f8307",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/tools?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/66663120424c8d91832aaac0eed4a3e4118f8307",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/tools"
+    }
+  },
+  {
+    "name": "ts-default",
+    "path": "src/ts-default",
+    "sha": "a2034a73c05e844097d730d99f6bf94bd2d924b8",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/ts-default?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/ts-default",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/a2034a73c05e844097d730d99f6bf94bd2d924b8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/ts-default?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/a2034a73c05e844097d730d99f6bf94bd2d924b8",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/ts-default"
+    }
+  },
+  {
+    "name": "ts-tailwind",
+    "path": "src/ts-tailwind",
+    "sha": "39908e7e60a171a9658d3ec33c5fb7d1d6f6df8e",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/ts-tailwind?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/ts-tailwind",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/39908e7e60a171a9658d3ec33c5fb7d1d6f6df8e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/ts-tailwind?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/39908e7e60a171a9658d3ec33c5fb7d1d6f6df8e",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/ts-tailwind"
+    }
+  },
+  {
+    "name": "utils",
+    "path": "src/utils",
+    "sha": "2a3d71a8e1fcdf0079cb851a3eb7e1ca19417f2a",
+    "size": 0,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/utils?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/tree/main/src/utils",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/2a3d71a8e1fcdf0079cb851a3eb7e1ca19417f2a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/utils?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/2a3d71a8e1fcdf0079cb851a3eb7e1ca19417f2a",
+      "html": "https://github.com/DavidHDev/react-bits/tree/main/src/utils"
+    }
+  },
+  {
+    "name": "vite-env.d.ts",
+    "path": "src/vite-env.d.ts",
+    "sha": "72bb6498860a9abd900c1f2d0f1a8bbeb924cab3",
+    "size": 86,
+    "url": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/vite-env.d.ts?ref=main",
+    "html_url": "https://github.com/DavidHDev/react-bits/blob/main/src/vite-env.d.ts",
+    "git_url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/72bb6498860a9abd900c1f2d0f1a8bbeb924cab3",
+    "download_url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/vite-env.d.ts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/DavidHDev/react-bits/contents/src/vite-env.d.ts?ref=main",
+      "git": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/72bb6498860a9abd900c1f2d0f1a8bbeb924cab3",
+      "html": "https://github.com/DavidHDev/react-bits/blob/main/src/vite-env.d.ts"
+    }
+  }
+]
