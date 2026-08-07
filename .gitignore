@@ -1,6 +1,8 @@
 # Dependencies
 node_modules/
-momo-web/tools/npm-cache/
+momo-web/tools/
+
+# Workspace tool data (work logs / memories — not part of the repo)
 
 # Build output
 dist/
