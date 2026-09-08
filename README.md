@@ -154,10 +154,8 @@ TOKEN_SECRET="请替换为足够长的随机字符串" npm run dev
 │  ├─ package.json
 │  └─ vite.config.ts
 ├─ momo_web.md              # 架构设计文档
-├─ 前端设计文档.md           # UI/UX 设计规范
 ├─ 墨墨OpenAPI 规范.md       # 整理后的 OpenAPI 规范
-├─ 墨墨开放api.md            # API 资料与实测补充
-└─ 工作文档.md               # 开发过程与验证记录
+└─ 墨墨开放api.md            # API 资料与实测补充
 ```
 
 ## 已知限制
@@ -182,10 +180,8 @@ TOKEN_SECRET="请替换为足够长的随机字符串" npm run dev
 ## 相关文档
 
 - [架构设计](./momo_web.md)
-- [前端设计规范](./前端设计文档.md)
 - [墨墨 OpenAPI 规范](./墨墨OpenAPI%20规范.md)
 - [墨墨开放 API 资料与实测补充](./墨墨开放api.md)
-- [开发与验证记录](./工作文档.md)
 - [交互原型](./design-preview/index.html)
 
 ## 声明
